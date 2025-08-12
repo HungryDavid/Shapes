@@ -16,6 +16,9 @@ void getShape(int *row, int *col){
     case '3':
       makeTriangle(*row);
       break;
+    case '4':
+      makeCircle(*row);
+      break;
     default:
       printf("Invalid choice!");
       break;
@@ -96,4 +99,8 @@ void makeTriangle(int n){
       printf("\n");
     }
   }
+}
+
+void makeCircle(int n){
+  
 }
